@@ -16,8 +16,7 @@ jobs:
       contents: read #This is required for actions/checkout
 
     steps:
-      - name: Enable Long Paths for Git Checkout
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4     
      
       - name: npm install, build, and test
         shell: bash
@@ -61,6 +60,7 @@ jobs:
           package: .
 
           
+
 
 
 
